@@ -42,3 +42,8 @@ struct LowLink {
     return k;
   }
 };
+
+/**
+ * @brief LowLink
+ * @docs docs/graph/lowlink.md
+ */
