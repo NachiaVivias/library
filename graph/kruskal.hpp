@@ -16,3 +16,8 @@ T kruskal(int N, Edges<T> &es) {
   }
   return ret;
 }
+
+/**
+ * @brief 最小全域木の重み（クラスカル法）
+ * @docs docs/graph/kruskal.md
+ */
