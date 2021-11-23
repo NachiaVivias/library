@@ -1,8 +1,24 @@
 ## 彩色数
 
+### 概要
+
 頂点数$n$のグラフの彩色数を$\mathrm{O}(2^n n)$で求めるライブラリ。
 
-#### 概要
+### 使い方
+
+- `int ChromaticNumber(G& g)`:
+  
+  型`G`は`UnweightedGraph`または`vector<vector<I>>` (`I`は整数型)で、引数`g`は無向グラフの隣接リストである。
+
+  グラフの彩色数を返す。
+  
+  計算量は$\mathrm{O}(2^n n)$ ($n$は頂点数)
+
+### 注意点
+
+- `__attribute__((target("avx2")))` が指定されている。
+
+### アルゴリズム
 
 [wata氏の指数時間アルゴリズムの資料](https://www.slideshare.net/wata_orz/ss-12131479)や[noshi氏のライブラリの解説](https://github.com/noshi91/n91lib_rs/blob/master/src/algorithm/chromatic_number.rs)などに詳しい。
 
