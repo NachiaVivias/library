@@ -77,5 +77,5 @@ struct OffLineDynamicConnectivity {
 
 /**
  * @brief Offline Dynamic Connectivity
- * @docs docs/graph/biconnected-components.md
+ * @docs docs/graph/offline-dynamic-connectivity.md
  */
