@@ -46,4 +46,5 @@ struct BiConnectedComponents : LowLink<G> {
 
 /**
  * @brief 二重頂点連結分解
+ * @docs docs/graph/biconnected-components.md
  */
