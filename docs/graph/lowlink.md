@@ -11,7 +11,12 @@
 
 実体は構造体テンプレート`LowLink`である。
 
+#### メンバ関数
+
 - `LowLink<G>(const G &_g)`: コンストラクタ。型`G`は`UnweightedGraph`または`vector<vector<I>>` (`I`は整数型)で、引数`_g`は無向グラフの隣接リストである。実行すると、メンバ変数に出力が格納される。計算量$\mathrm{O}(N+M)$ ($N$は頂点数、$M$は辺数)
+
+#### メンバ変数
+
 - `int N`: 頂点数$N$。
 - `vector<int> articulation`: 関節点の集合。
 - `vector<pair<int, int> > bridge`: 橋の集合。橋が$2$頂点$u,v$ $(u\lt v)$を結ぶとき、組$(u,v)$を格納する。
