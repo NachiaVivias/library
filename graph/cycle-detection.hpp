@@ -47,4 +47,5 @@ vector<pair<int, int>> CycleDetection(const G& g, bool directed = true) {
 
 /**
  * @brief 閉路の検出
+ * @docs docs/graph/cycle-detection.md
  */
