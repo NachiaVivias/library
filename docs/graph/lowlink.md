@@ -13,7 +13,7 @@
 
 #### メンバ関数
 
-- `LowLink<G>(const G &_g)`: コンストラクタ。型`G`は`UnweightedGraph`または`vector<vector<I>>` (`I`は整数型)で、引数`_g`は無向グラフの隣接リストである。実行すると、メンバ変数に出力が格納される。計算量$\mathrm{O}(N+M)$ ($N$は頂点数、$M$は辺数)
+- `LowLink<G>(const G &_g)`: コンストラクタ。型`G`は`UnweightedGraph`、`StaticGraph<void>`または`vector<vector<I>>` (`I`は整数型)で、引数`_g`は無向グラフの隣接リストである。実行すると、メンバ変数に出力が格納される。計算量$\mathrm{O}(N+M)$ ($N$は頂点数、$M$は辺数)
 
 #### メンバ変数
 

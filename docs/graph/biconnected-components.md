@@ -8,7 +8,7 @@
 - 無向グラフが **biconnected** であるとは、連結で、関節点を持たないことである。
 - **biconnected component** とは、 biconnected な部分グラフで極大なものである。
 
-自己ループでない各辺について、それを含む二重連結成分は一意である。
+自己ループでない各辺について、それを含む biconnected component は一意である。
 
 ### 使い方
 

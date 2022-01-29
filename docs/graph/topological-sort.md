@@ -11,7 +11,7 @@ DAGに対してトポロジカルソートを行う。
 
 - `vector<int> TopologicalSort<T>(T &g)`:
 
-  型`T`は`UnweightedGraph`または`vector<vector<I>>` (`I`は整数型)で、引数`g`はDAGの隣接リストである。
+  型`T`は`UnweightedGraph`、`StaticGraph<void>`または`vector<vector<I>>` (`I`は整数型)で、引数`g`はDAGの隣接リストである。
   
   グラフがDAGなら、頂点番号をトポロジカルソートの順に並べた列を返す。DAGでなければ空の列を返す。
 

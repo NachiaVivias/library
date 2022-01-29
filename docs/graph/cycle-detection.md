@@ -1,7 +1,5 @@
 ## 閉路の検出
 
-<!-- TODO : 多重辺、自己ループがある場合の動作を確認 -->
-
 ### 概要
 
 有向グラフまたは無向グラフで、点素な閉路を検出する。
@@ -12,7 +10,7 @@
 
 - `vector<pair<int, int>> CycleDetection(const G& g, bool directed = true)`:
   
-  型`G`は`UnweightedGraph`または`vector<vector<I>>` (`I`は整数型)で、引数`g`は有向/無向グラフの隣接リストである。
+  型`G`は`UnweightedGraph`、`StaticGraph<void>`または`vector<vector<I>>` (`I`は整数型)で、引数`g`は有向/無向グラフの隣接リストである。
   
   `directed`が`true`なら`g`は有向グラフ、`false`なら無向グラフとして扱う。
 

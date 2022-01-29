@@ -8,7 +8,7 @@
 
 - `int ChromaticNumber(G& g)`:
   
-  型`G`は`UnweightedGraph`または`vector<vector<I>>` (`I`は整数型)で、引数`g`は無向グラフの隣接リストである。
+  型`G`は`UnweightedGraph`、`StaticGraph<void>`または`vector<vector<I>>` (`I`は整数型)で、引数`g`は無向グラフの隣接リストである。自己ループを含んではいけない。
 
   グラフの彩色数を返す。
   
