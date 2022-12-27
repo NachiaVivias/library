@@ -66,4 +66,4 @@
 
 #### メンバ変数
 
-- `RollbackUnionFind uf`: メンバ関数`run`の実行中のみ、かつ **read-only** でのみ利用でき、その時点の$G$の連結性を表す。したがって連結性のクエリを計算量$\mathrm{O}(\log n)$で処理できる。
+- `RollbackUnionFind uf`: メンバ関数`run`の実行中のみ、かつ **read-only** で利用でき、その時点の$G$の連結性を表す。したがって連結性のクエリを計算量$\mathrm{O}(\log n)$で処理できる。

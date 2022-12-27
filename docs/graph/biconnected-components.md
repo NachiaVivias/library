@@ -32,7 +32,7 @@
 
 - `vector<vector<pair<int, int> > > bc`:
 
-  `bc[i]`は、ある biconnected component に含まれる辺の集合。各辺は両端の頂点の番号($0$-indexed)で表される。多重辺は$1$つにまとめられる。
+  `bc[i]`は、ある biconnected component に含まれる辺の集合。各辺は両端の頂点の番号($0$-indexed)で表される。多重辺は$1$つにまとめられる場合がある。
 
 ### 注意点
 
