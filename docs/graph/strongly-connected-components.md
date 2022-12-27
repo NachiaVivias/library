@@ -14,7 +14,7 @@
 
 #### メンバ関数
 
-- `StronglyConnectedComponents<G>(const G &_g)`: コンストラクタ。型`G`は`UnweightedGraph`または`vector<vector<I>>` (`I`は整数型)で、引数`_g`は有向グラフの隣接リストである。実行すると、メンバ変数に出力が格納される。計算量$\mathrm{O}(N+M)$ ($N$は頂点数、$M$は辺数)
+- `StronglyConnectedComponents<G>(const G &_g)`: コンストラクタ。型`G`は`UnweightedGraph`または`StaticGraph<X>`で、引数`_g`は有向グラフの隣接リストである。実行すると、メンバ変数に出力が格納される。計算量$\mathrm{O}(N+M)$ ($N$は頂点数、$M$は辺数)
 - `operator[](k)`: 頂点$k$が属する強連結成分の番号。計算量$\mathrm{O}(1)$
 - `belong(k)`: 強連結成分$k$に属する頂点の集合。 `vector<int>` の参照を返す。計算量$\mathrm{O}(1)$
 

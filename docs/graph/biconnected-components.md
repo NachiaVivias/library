@@ -22,7 +22,7 @@
 
 - `BiConnectedComponents<G>(const G &_g)`: 
 
-  コンストラクタ。型`G`は`UnweightedGraph`または`vector<vector<I>>` (`I`は整数型)で、引数`_g`は無向グラフの隣接リストである。
+  コンストラクタ。型`G`は`UnweightedGraph`または`StaticGraph`で、引数`_g`は無向グラフの隣接リストである。
   
   実行すると、メンバ変数に出力が格納される。
   
